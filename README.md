@@ -38,7 +38,12 @@ mv ~/.claude-code-fireworks/.env.example ~/.claude-code-fireworks/.env
 Update .env with your Fireworks API key and choose model `FIREWORKS_API_KEY=fw_...`
 `FIREWORKS_MODEL=accounts/fireworks/models/kimi-k2-instruct`
 
-Start the proxy with Claude start
+Start the proxy server and Claude Code
 ```bash
 ccf start
 ```
+To change model directly:
+```bash
+ccf model
+```
+
